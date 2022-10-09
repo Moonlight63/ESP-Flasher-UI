@@ -1,0 +1,18 @@
+export default {
+  loading: false,
+  count: 0,
+  name: "IoT",
+  flashing: false,
+  flashLoop: false,
+  flashDone: false,
+  flashProgress: "",
+  portDetected: false,
+  connectedPort: "",
+  testVal: 0,
+  appReady: false,
+  nextEvent: "",
+  selectedFirmware: "",
+  cwd: "",
+  portable: "",
+  firmwareFiles: [""],
+}

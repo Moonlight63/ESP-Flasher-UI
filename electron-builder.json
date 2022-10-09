@@ -1,5 +1,5 @@
 {
-    "appId": "com.electron.app",
+    "appId": "com.iotstadium.util",
     "directories": {
         "output": "dist"
     },
@@ -7,13 +7,13 @@
         "oneClick": false,
         "perMachine": false,
         "allowToChangeInstallationDirectory": true,
-        "shortcutName": "Electron App"
+        "shortcutName": "IoT Stadium Flasher"
     },
     "win": {
-        "target": "nsis"
+        "target": "portable"
     },
     "linux":  {
-        "target": ["snap"]
+        "target": ["appimage"]
     },
     "files": [
         "build/main/**/*",

@@ -32,7 +32,8 @@ function createWindow () {
   const mainWindow = new BrowserWindow({
     width: 320,
     height: 480,
-    frame: true,
+    frame: false,
+    kiosk: true,
     autoHideMenuBar: true,
     resizable: false,
     webPreferences: {

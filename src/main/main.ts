@@ -27,6 +27,7 @@ const sharedStore = createSharedStore<Partial<typeof State>>(State);
 
 const cwd = process.env.PORTABLE_EXECUTABLE_DIR || process.cwd();
 // const temp = process.env.PORTABLE_EXECUTABLE_DIR
+console.log(cwd);
 
 function createWindow () {
   const mainWindow = new BrowserWindow({
